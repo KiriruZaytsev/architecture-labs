@@ -1,4 +1,3 @@
-# crud.py (или routers/users.py)
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status
 

@@ -8,4 +8,4 @@ RUN pip install poetry
 
 RUN poetry install --no-root
 
-CMD ["poetry", "run", "python3", "app.py"]
+CMD ["poetry", "run", "python3", "./src/app.py"]
